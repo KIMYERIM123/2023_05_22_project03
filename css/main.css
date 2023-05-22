@@ -10,6 +10,10 @@
     border-bottom: 1px solid #111;
 }
 
+.header.on {
+    background: #fff;
+}
+
 
 .header .inner {
     display: flex;
@@ -57,13 +61,13 @@
     left: -20px;
     width: 1px;
     height: 12px;
-    background: #ddd;
+    background: #999;
     transform: translate(0%, -50%);
 }
 
 
 .main_visual .main_slide figure {
-    height: 1000px;
+    height: 800px;
     position: relative;
 }
 
@@ -76,5 +80,63 @@
 }
 
 .main_visual .main_slide .itm03 {
-    background: url(../img/main3.jpg) no-repeat center center/cover;
+    background: url(../img/main4.png) no-repeat center center/cover;
 }
+
+.main_visual .main_slide .slogan {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_visual .main_slide .slogan strong {
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0 0 5px #111;
+    margin: 0 0 30px 0;
+}
+
+.main_visual .main_slide .slogan a {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+/*  버튼 */
+
+.main_visual .slick-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.main_visual .slick-dots li{
+display: inline-block;
+margin: 0 4px;
+}
+
+.main_visual .slick-dots li button {
+    background-color: #111;
+    color: #fff;
+    outline: none;
+    border: none;
+    opacity: 0.6;
+    font-size: 0;
+    width: 30px;
+    height: 5px;
+}
+
+.main_visual .slick-dots li.slick-active button {
+    background: #fff
+}
+
