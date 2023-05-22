@@ -1,0 +1,80 @@
+.header {
+    display: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.header {
+    border-bottom: 1px solid #111;
+}
+
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header .inner img {
+    width: 120px;
+
+}
+
+.header .icon {
+    display: flex;
+    margin: 0 0 0 auto;
+    font-size: 25px;
+    gap: 20px;
+}
+
+.header .gnb {
+    margin: 0 0 0 auto;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.header .gnb>ul>li {
+    position: relative;
+    font-size: 18px;
+}
+
+.header .gnb>ul>li>a {
+    font-size: 18px;
+}
+
+.header .gnb>ul>li~li::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 1px;
+    height: 12px;
+    background: #ddd;
+    transform: translate(0%, -50%);
+}
+
+
+.main_visual .main_slide figure {
+    height: 1000px;
+    position: relative;
+}
+
+.main_visual .main_slide .itm01 {
+    background: url(../img/main1.png) no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm02 {
+    background: url(../img/main2.png) no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm03 {
+    background: url(../img/main3.jpg) no-repeat center center/cover;
+}
