@@ -21,4 +21,22 @@ $(function () {
 
     });
 
+    $('.contnet_slide').slick({
+        slidesToShow : 3,
+        slidesToScroll : 1,
+        arrows : false
+    });
+
+
+    $('.sub_content02 .arrows .left').on('click', function () {
+        $('.contnet_slide').slick('slickPrev');
+    });
+    $('.sub_content02 .arrows .right').on('click', function () {
+        $('.contnet_slide').slick('slickNext');
+    });
+
+
+   
+    
+
 })
