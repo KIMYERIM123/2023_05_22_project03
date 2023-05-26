@@ -149,11 +149,11 @@
 .sub_content {
 
     background: rgb(249, 249, 249);
-    height: 900px;
+    height: 800px;
 }
 
 .sub_content h2 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: #222;
     margin: 0 0 130px 0;
@@ -162,15 +162,7 @@
     top: 100px;
 }
 
-/* .sub_content h2::after {
-    content: "";
-    height: 2px;
-    width: 600px;
-    background: #666;
-    position: absolute;
-    bottom: -10px;
-    left: 650px;
-} */
+
 
 .sub_content .inner {
     max-width: 1200px;
@@ -278,8 +270,8 @@
 /* 서브 컨텐츠 1 끝 */
 
 .sub_content02 {
-    padding: 230px 0;
-   
+    padding: 130px 0 180px 0;
+
 }
 
 .tit_inner {
@@ -310,8 +302,8 @@
     width: 200px;
 }
 
-.sub_content02  {
-position: relative;
+.sub_content02 {
+    position: relative;
 }
 
 .sub_content02 .arrows {
@@ -323,7 +315,7 @@ position: relative;
     width: 100%;
 }
 
-.sub_content02 .arrows i{
+.sub_content02 .arrows i {
     position: absolute;
     top: 0;
 
@@ -345,15 +337,20 @@ position: relative;
 }
 
 .sub_content03 {
-    padding: 150px 0 180px 0;
+    padding: 100px 0 180px 0;
     background: rgb(249, 249, 249);
 
 }
 
 .sub_content03 h5 {
-    font-size: 25px;
+    display: inline-block;
+    font-size: 30px;
     font-weight: 300;
-    text-align: center;
+    position: relative;
+    left: 45%;
+    border: 1px solid #999;
+    border-radius: 20%;
+    padding: 10px 10px;
     margin: 0 0 70px 0;
 }
 
@@ -367,7 +364,7 @@ position: relative;
 }
 
 .sub_content03 .last_inner img {
-width: 370px;
+    width: 370px;
 }
 
 .sub_content03 .last_inner figure {
@@ -375,11 +372,12 @@ width: 370px;
     flex: 1;
     overflow: hidden;
 }
+
 .sub_content03 figure .cover {
     position: absolute;
     inset: 0 auto auto 100%;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     display: flex;
     flex-direction: column;
     background: rgba(51, 51, 51, 0.7);
@@ -389,7 +387,7 @@ width: 370px;
 }
 
 .sub_content03 figure:hover .cover {
-inset: 0 auto auto 0;
+    inset: 0 auto auto 0;
 }
 
 .last_inner .cover strong {
@@ -406,19 +404,23 @@ inset: 0 auto auto 0;
 
 }
 
-.footer{
+.footer {
     height: 130px;
     background: #222;
 }
 
 .footer .footer_inner {
- max-width: 1200px;
- padding: 10px 15px;
- margin: 0 auto;
- text-align: center;
+    max-width: 1200px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .footer_inner .inner_3 {
     color: #ddd;
     padding: 40px;
+}
+
+.footer address {
+    display: block;
 }
